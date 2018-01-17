@@ -1,0 +1,71 @@
+#landing {
+  background-image: url("/images/computer.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gallery {
+  margin-top: 100px;
+}
+
+#bio {
+  font-size: 1.25em;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+hr {
+  margin-top: 120px;
+  height: 10px;
+}
+
+footer {
+  
+}
+
+footer ul {
+  display: inline-block;
+  list-style-type: none;
+
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 10px;
+  list-style: none;
+}
+
+footer ul a {
+  color: white;
+}
+
+footer p {
+  text-align: right;
+}
+
+footer .pull-right {
+  float: right;
+  padding: 10px;
+}
+
+@media (min-width: 720px) {
+  h1 {
+    font-size: 5.5em;
+  }
+
+  h5{
+    font-size: 1.5em;
+  }
+  
+  #landing {
+    height: 768px;
+  }
+}
