@@ -123,6 +123,12 @@
         <p class="pull-right">&copy; 2016</p>
       </div>
     </footer>
+  
+  <!-- Lightbox -->
+  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
 
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
